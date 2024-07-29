@@ -1,0 +1,22 @@
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.editor-panes {
+    --sb-track-color: #0B2029;
+    --sb-thumb-color: #545454;
+    --sb-size: 7px;
+}
+
+.editor-panes::-webkit-scrollbar {
+    width: var(--sb-size);
+}
+
+.editor-panes::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+}
+
+.editor-panes::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 5px;
+}
